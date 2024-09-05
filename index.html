@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Library</h1>
+            <div class="add">
+                <i class="material-icons" style="font-size:40px;">add</i>
+                <button class="add-book">Add Book</button>
+            </div>
+        </div>
+        <div class="form-container"> 
+            <form id="book-form">
+                <i class="material-icons close" style="margin: 0; padding: 0;">close</i>
+                <div class="field">
+                        <label>Title</label>
+                        <input type="text" name="title" id="title" required>
+                </div>
+                <div class="field">
+                        <label>Author</label>
+                        <input type="text" name="author" id="author" required>
+                </div>
+                <div class="field">
+                        <label>What page are you on?</label>
+                        <input type="number" name="pages" id="pages" required>
+                </div>
+                <div class="field">
+                    <label>Add book cover Url</label>
+                    <input type="url" name="url" id="url">
+                </div>
+                <button class="submit-form">Add</button>
+            </form>
+        </div>
+        <div class="book-cards">
+           
+        </div>
+    </div>
+</body>
+</html>
